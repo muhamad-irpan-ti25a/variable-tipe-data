@@ -55,3 +55,25 @@ l_name = split_name[2]
 print(f"nama pertama {f_name}")
 print(f"nama tengah {m_name}")
 print(f"nama akhir {l_name}")
+
+nomor_plat = input("isikan nomor plat mobil anda :")
+
+#find -> tidak ketemu -1, ketemu -> posisi atau urutan
+
+cari_karakter = nomor_plat.find("B")
+print(cari_karakter)
+
+#cek email itu valid atau tidak
+#punya @
+#punya .
+#posisi @ harus disebelah kiri dari tanda .
+
+email = input("isikan email anda :")
+posisi_at = email.find("@")
+posisi_dot = email.find(".")
+
+#operator ternary
+
+result = "valid" if (posisi_at > -1 and posisi_dot > -1) and (posisi_at < posisi_dot) else "tidak valid"
+
+print(result)
