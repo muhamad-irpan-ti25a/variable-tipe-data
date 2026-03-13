@@ -42,3 +42,16 @@ print("huruf terakhir :", kampus[-1])
 print("Kalimat pertama: ", kampus[0:4])
 print("membalik kalimat :", kampus[::-1])
 print("mengambil kalimat ke dua :", kampus[5:1])
+
+#memisah kata
+
+full_name = input("isikan nama lengkap :")
+split_name = full_name.split(" ")
+f_name = split_name[0]
+m_name = split_name[1]
+l_name = split_name[2]
+
+#output mnggunakan f-string
+print(f"nama pertama {f_name}")
+print(f"nama tengah {m_name}")
+print(f"nama akhir {l_name}")
