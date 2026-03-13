@@ -8,5 +8,3 @@ print("2", end ="")
 print("3")
 
 
-#separator
-print("Andi", "budi", "robi", sep="-")
