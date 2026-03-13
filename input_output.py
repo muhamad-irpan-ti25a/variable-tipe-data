@@ -32,3 +32,11 @@ print("nama anda : {1} {0} {1}".format(f_name, m_name, l_name))
 
 #keyword
 print("nama anda : {depan} {tengah} {belakang}".format(depan = f_name, tengah = m_name, belakang = l_name))
+
+#output string manipulation
+
+kampus = input("isikan nama kampus anda :")
+
+print("huruf pertama :", kampus[0])
+print("huruf terakhir :", kampus[-1])
+print("Kalimat pertama: ", kampus[0:4])
